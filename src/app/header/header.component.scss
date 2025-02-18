@@ -1,0 +1,34 @@
+.navbar {
+    background: #000428;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #004e92, #000428);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #004e92, #000428);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    padding: 10px 0;
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.nav-link {
+    color: white;
+    margin-left: 20px;
+}
+
+.nav-link.active {
+    color: #ffd700;
+    border-bottom: 1px solid #ffd700;
+}
+
+.icon {
+    font-size: 30px;
+}

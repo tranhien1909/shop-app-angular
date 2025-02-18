@@ -1,0 +1,80 @@
+.container {
+    color: white;
+}
+
+.intro-section {
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.product-header {
+    color: rgb(8, 54, 134);
+    padding: 20px;
+    text-align: center;
+}
+
+.form-control {
+    background: #7F7FD5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: 1px solid rgb(8, 54, 134);
+    color: white;
+}
+
+.form-control:focus {
+    border-color: white;
+    background: white;
+    color: rgb(8, 54, 134);
+}
+
+.form-label {
+    color: white;
+    font-weight: 700;
+}
+
+.product-order {
+    color: rgb(8, 54, 134);
+    padding: 20px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    border-collapse: separate;
+    border: 1px solid white;
+    border-spacing: 0;
+    background-color: rgb(8, 54, 134);
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+.product-info {
+    display: flex;
+    align-items: center;
+}
+
+.product-img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.product-name {
+    color: white;
+    margin-right: 10px;
+}
+
+.btn-gradient {
+    background: rgb(8, 54, 134);
+    color: white;
+    width: 200px;
+    border-radius: 30px;
+    cursor: pointer;
+}
